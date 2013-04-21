@@ -132,4 +132,9 @@ POST_1_7_2_GIT=$(git_compare_version "1.7.2")
 #clean up the namespace slightly by removing the checker function
 unset -f git_compare_version
 
+function time_since_last_commit () {
+	ref=$(git symbolic-ref HEAD 2> /dev/null)  || return
+  echo "[ $(git log -1 --pretty=format:"%ar" | head -1 | sed "s/$/\n\r/g" | head -1) ]"
+}
+
 
