@@ -13,18 +13,18 @@ You can install this via the command line with either `curl` or `wget`.
 
 h4. via `curl`
 
-@curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh@
+@curl -L https://github.com/ashishbista/oh-my-zsh/raw/master/tools/install.sh | sh@
 
 h4. via `wget`
 
-@wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh@
+@wget --no-check-certificate https://github.com/ashishbista/oh-my-zsh/raw/master/tools/install.sh -O - | sh@
 
 h3. The manual way
 
 
 1. Clone the repository
 
-  @git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh@
+  @git clone git://github.com/ashishbista/oh-my-zsh.git ~/.oh-my-zsh@
 
 2. *OPTIONAL* Backup your existing ~/.zshrc file
 
@@ -78,6 +78,7 @@ h3. (Don't) Send us your theme! (for now)
 
 We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there. 
 
+h4. This repo has an extra theme than it's official version. 
 
 
 h2. Contributors
