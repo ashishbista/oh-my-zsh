@@ -16,8 +16,13 @@ function take() {
 }
 
 function moodcapture(){
-	filename="$(date +%Y-%m-%d-%H-%I-%S)-${1}-"
-	mplayer tv:// -vo png:outdir=/var/tmp/moodcapture/:prefix=${filename} -frames 1
+	filename="$(date +%Y-%m-%d-%H-%I-%S)"
+	if [ ! -d ~/.moodcapture ]
+	then
+    mkdir -p ~/.moodcapture
+	fi
+
+	streamer -c /dev/video0 -o ${HOME}/.moodcapture/${filename}.jpeg 
 }
 
 
