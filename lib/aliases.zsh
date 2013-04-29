@@ -24,3 +24,7 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+# Command line copy paste
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
