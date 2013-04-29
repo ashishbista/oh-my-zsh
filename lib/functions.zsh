@@ -15,3 +15,9 @@ function take() {
   cd $1
 }
 
+function moodcapture(){
+	filename="$(date +%Y-%m-%d-%H-%I-%S)-${1}-"
+	mplayer tv:// -vo png:outdir=/var/tmp/moodcapture/:prefix=${filename} -frames 1
+}
+
+
