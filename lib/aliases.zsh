@@ -28,3 +28,5 @@ alias afind='ack-grep -il'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
+# Environment Variables
+export TERM=xterm-256color
