@@ -1,3 +1,5 @@
+!https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png!
+
 oh-my-zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and few things that make you shout...
 
 bq. "OH MY ZSHELL!"
@@ -72,6 +74,8 @@ To disable updates entirely, put this in your ~/.zshrc
 
 @DISABLE_AUTO_UPDATE=true@
 
+To upgrade directly from the command line, just run @upgrade_oh_my_zsh@
+
 h3. Uninstalling
 
 If you want to uninstall it, just run @uninstall_oh_my_zsh@ from the command line and it'll remove itself and revert you to bash (or your previous zsh config).
@@ -87,7 +91,6 @@ h3. (Don't) Send us your theme! (for now)
 We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there.
 
 h4. This repo has an extra theme than it's official version.
-
 
 h2. Contributors
 
